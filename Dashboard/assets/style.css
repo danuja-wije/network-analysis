@@ -1,0 +1,123 @@
+*{margin: 0;padding: 0;box-sizing: border-box}
+
+
+.page_header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: Roboto;
+    font-size: large;
+    background: url("background.jpg");
+    padding: 20px;
+    min-height: 150px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
+.page_header H1{
+    font-size: 80px;
+    font-family: "Lucinda Grande", "Lucinda Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.drop_outer_box{
+    display: flex;
+    justify-content: space-between;
+}
+.drop_outer_box #items{
+    min-width: 200px;
+    padding: 10px;
+    color: black;
+}
+.drop_outer_box h4{
+    padding-top: 10px;
+}
+#gNetwork{
+    height: 700px;
+}
+.listBoard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #121212;
+    border-radius: 10px;
+    margin-top: 1px;
+}
+.listBoard .card:first-child{
+    border-radius: 10px;
+    background: coral;
+    font-family: Roboto;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 15%;
+    padding: 10px;
+    margin: 10px;
+    min-height: 150px;
+    overflow: hidden;
+}
+.listBoard .card:nth-child(2){
+    border-radius: 10px;
+    background: #3aec64;
+    font-family: Roboto;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 15%;
+    padding: 10px;
+    margin: 10px;
+    min-height: 150px;
+    overflow: hidden;
+}
+.listBoard .card:nth-child(3){
+    border-radius: 10px;
+    background: darkslateblue;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 15%;
+    padding: 10px;
+    margin: 10px;
+    min-height: 150px;
+    overflow: hidden;
+}
+.listBoard .card:last-child{
+    border-radius: 10px;
+    background: cornflowerblue;
+    font-family: Roboto;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 15%;
+    min-height: 150px;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+.card-title{
+    font-size: x-large;
+}
+.card-body{
+    font-size: xxx-large;
+}
+
+.card-body H1{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.degreebox{
+    margin-top: 1px;
+    text-align: center;
+    background: #121212;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.degreebox H4{
+    font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Icons16", sans-serif;
+    font-size: xxx-large;
+    color: white;
+}
